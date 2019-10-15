@@ -21,7 +21,7 @@ import com.javasampleapproach.springrest.mysql.model.Customer;
 import com.javasampleapproach.springrest.mysql.repo.CustomerRepository;
 
 @RestController
-@CrossOrigin(origins = "http://18.191.23.87:81")
+@CrossOrigin(origins = "http://3.17.25.48:81",allowedHeaders = "*")
 @RequestMapping("/api")
 public class CustomerController {
 
