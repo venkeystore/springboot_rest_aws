@@ -56,6 +56,25 @@
 			</plugin>
 		</plugins>
 	</build>
+	
+	
+	
+<distributionManagement>
+    <repository>
+        <uniqueVersion>false</uniqueVersion>
+        <id>NexusRepo</id>
+        <name>Internal Releasesl</name>
+        <url>http://13.232.106.225:8081/repository/maven-releases/</url>
+        <layout>default</layout>
+    </repository>
+	
+    <snapshotRepository>
+        <uniqueVersion>true</uniqueVersion>
+        <id>NexusRepo</id>
+        <name>Propellors Snapshots</name>
+        <url>http://13.232.106.225:8081/repository/maven-snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
 
 
 </project>
