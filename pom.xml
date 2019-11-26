@@ -5,7 +5,7 @@
 
 	<groupId>com.javasampleapproach</groupId>
 	<artifactId>spring-boot-rest-mysql</artifactId>
-	<version>1.0.${BUILD_NUMBER}-SNAPSHOT</version>
+	<version>1.0.${BUILD_NUMBER}</version>
 	<packaging>war</packaging>
 
 	<name>SpringRestMySQL</name>
