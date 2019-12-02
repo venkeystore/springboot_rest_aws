@@ -64,7 +64,7 @@
         <uniqueVersion>false</uniqueVersion>
         <id>NexusRepo</id>
         <name>Internal Releasesl</name>
-        <url>http://http://13.232.36.34:8081//repository/maven-releases/</url>
+        <url>http://13.232.36.34:8081/repository/maven-releases/</url>
         <layout>default</layout>
     </repository>
 	
